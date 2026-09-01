@@ -1,0 +1,219 @@
+body {
+  background-color: #f0f0f0;    /* HEX */
+  color: #333333;               /* HEX */
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+ 
+h1 {
+  font-size: 36px;
+  color: #ffffff;               /* HEX */
+  margin-bottom: 10px;
+}
+ 
+h2 {
+  font-size: 26px;
+  color: #1c1c2e;               /* HEX */
+  margin-bottom: 12px;
+}
+ 
+p {
+  font-size: 16px;
+  line-height: 1.7;
+  color: #333333;               /* HEX */
+}
+ 
+a {
+  color: #e50914;               /* HEX */
+  text-decoration: none;
+}
+ 
+/* Pseudo-class selector */
+a:hover {
+  text-decoration: underline;
+  color: rgb(180, 0, 0);        /* RGB */
+}
+ 
+ul {
+  padding-left: 20px;
+}
+ 
+ol {
+  padding-left: 20px;
+}
+ 
+li {
+  margin-bottom: 8px;
+  font-size: 16px;
+}
+ 
+/* Pseudo-class selector */
+li:hover {
+  color: #e50914;               /* HEX */
+}
+ 
+nav {
+  background-color: #1c1c2e;   /* HEX */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 14px 40px;
+}
+ 
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 24px;
+  margin: 0;
+  padding: 0;
+}
+ 
+nav ul a {
+  color: #ffffff;               /* HEX */
+  font-size: 15px;
+}
+ 
+nav ul a:hover {
+  color: rgb(255, 215, 0);      /* RGB */
+}
+ 
+footer {
+  background-color: #1c1c2e;   /* HEX */
+  color: #ffffff;               /* HEX */
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+  font-size: 14px;
+}
+ 
+ 
+/* ---- CLASS SELECTORS ---- */
+ 
+.logo {
+  color: #ffd700;               /* HEX */
+  font-size: 22px;
+  margin: 0;
+}
+ 
+.btn {
+  display: inline-block;
+  background-color: #e50914;   /* HEX */
+  color: #ffffff;               /* HEX */
+  padding: 12px 28px;
+  border-radius: 6px;
+  font-size: 16px;
+  margin-top: 18px;
+}
+ 
+.btn:hover {
+  background-color: rgb(180, 0, 0);  /* RGB */
+}
+ 
+/* Offer list — simple bullets with a custom color */
+.offer-list {
+  list-style-type: disc;
+  color: #1c1c2e;               /* HEX */
+}
+ 
+.offer-list li {
+  background-color: #ffffff;    /* HEX */
+  padding: 8px 12px;
+  margin-bottom: 6px;
+  border-left: 4px solid #e50914;  /* HEX */
+  list-style: none;
+}
+ 
+/* Movie list — numbered look with gold color */
+.movie-list {
+  list-style-type: square;
+  color: rgb(28, 28, 46);       /* RGB */
+}
+ 
+.movie-list li {
+  padding: 8px 0;
+  border-bottom: 1px solid #cccccc;
+}
+ 
+/* Genre tag inside movie list */
+.genre {
+  background-color: rgb(229, 9, 20);  /* RGB */
+  color: #ffffff;               /* HEX */
+  padding: 2px 8px;
+  border-radius: 4px;
+  font-size: 13px;
+}
+ 
+/* Steps list — ordered, styled simply */
+.steps-list li {
+  background-color: #ffd700;    /* HEX */
+  color: #1c1c2e;               /* HEX */
+  padding: 10px 14px;
+  margin-bottom: 8px;
+  border-radius: 4px;
+  font-weight: bold;
+}
+ 
+/* City list — grid layout, badge style */
+.city-list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+ 
+.city-list li {
+  background-color: #1c1c2e;   /* HEX */
+  color: #ffffff;               /* HEX */
+  padding: 8px 18px;
+  border-radius: 20px;
+  font-size: 15px;
+}
+ 
+.city-list li:hover {
+  background-color: rgb(229, 9, 20);  /* RGB */
+}
+ 
+ 
+/* ---- ID SELECTORS ---- */
+ 
+#hero {
+  background-color: #1c1c2e;   /* HEX */
+  color: #ffffff;               /* HEX */
+  text-align: center;
+  padding: 60px 40px;
+}
+ 
+#hero p {
+  color: #f0f0f0;               /* HEX */
+  font-size: 18px;
+}
+ 
+#about {
+  background-color: #ffffff;    /* HEX */
+  padding: 40px;
+  border-left: 6px solid rgb(229, 9, 20);  /* RGB */
+  margin: 30px 40px;
+}
+ 
+#offer {
+  padding: 30px 40px;
+  background-color: #f9f9f9;   /* HEX */
+}
+ 
+#movies {
+  padding: 30px 40px;
+  background-color: #ffffff;    /* HEX */
+}
+ 
+#how {
+  padding: 30px 40px;
+  background-color: #f9f9f9;   /* HEX */
+}
+ 
+#cities {
+  padding: 30px 40px;
+  background-color: #ffffff;    /* HEX */
+}
+ 
