@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Space Explorer</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+  <link rel="stylesheet" href="space.css">
+</head>
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="#">
+        <i class="bi bi-rocket-takeoff text-info me-2"></i>AstroSpace
+      </a>
+      
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#spaceNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="spaceNav">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" href="#home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#missions">Missions</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item ms-lg-2">
+            <a class="btn btn-info btn-sm text-dark fw-bold px-3" href="#contact">Join Us</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <header id="home" class="hero-section py-5">
+    <div class="container py-5">
+      <div class="row align-items-center gy-4">
+        <div class="col-lg-6 text-center text-lg-start">
+          <h1 class="display-4 fw-bold mb-3">Explore the Universe</h1>
+          <p class="lead text-secondary mb-4">
+            Discover distant planets, build orbital habitats, and travel among the stars with our next-generation spacecraft.
+          </p>
+          <div class="d-flex justify-content-center justify-content-lg-start gap-3">
+            <a href="#missions" class="btn btn-info text-dark fw-semibold px-4 py-2">Get Started</a>
+            <a href="#about" class="btn btn-outline-light px-4 py-2">Learn More</a>
+          </div>
+        </div>
+
+        <div class="col-lg-6 text-center">
+          <div class="space-scene">
+            <div class="astronaut">🧑‍🚀</div>
+            <div class="rocket">🚀</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <section id="missions" class="py-5">
+    <div class="container py-4">
+      <div class="text-center mb-5">
+        <h2 class="fw-bold">Featured Missions</h2>
+        <p class="text-secondary">Take a look at what we are building today.</p>
+      </div>
+
+      <div class="row g-4">
+        <div class="col-md-4">
+          <div class="card space-card text-center p-4 h-100">
+            <div class="card-icon text-info fs-1 mb-3">
+              <i class="bi bi-moon"></i>
+            </div>
+            <h4 class="card-title">Moon Outpost</h4>
+            <p class="card-text text-secondary">
+              Establishing a permanent research camp on the lunar surface.
+            </p>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card space-card text-center p-4 h-100">
+            <div class="card-icon text-warning fs-1 mb-3">
+              <i class="bi bi-globe-americas"></i>
+            </div>
+            <h4 class="card-title">Mars Voyage</h4>
+            <p class="card-text text-secondary">
+              Sending robotic scouts and human pioneers to the red planet.
+            </p>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card space-card text-center p-4 h-100">
+            <div class="card-icon text-info fs-1 mb-3">
+              <i class="bi bi-stars"></i>
+            </div>
+            <h4 class="card-title">Deep Space Satellites</h4>
+            <p class="card-text text-secondary">
+              High-speed communication probes orbiting across the solar system.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="py-5">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-6 text-center">
+          <h2 class="fw-bold mb-3">Stay Updated</h2>
+          <p class="text-secondary mb-4">Enter your email to receive launch notifications.</p>
+          <form class="d-flex gap-2">
+            <input type="email" class="form-control" placeholder="name@example.com" required>
+            <button type="submit" class="btn btn-info text-dark fw-bold">Sign Up</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="bg-dark text-secondary text-center py-4 border-top border-secondary">
+    <div class="container">
+      <p class="mb-0">&copy; 2025 AstroSpace. Built with HTML, CSS, and Bootstrap.</p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
